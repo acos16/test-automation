@@ -1,4 +1,4 @@
-##What is test automation?
+## What is test automation?
 
 Test automation is often described as the practice of using (automation) tools to run tests, work with test data, compare the actual results to the expected behavior amd report outcomes to the QA Engineer.
 
@@ -17,7 +17,7 @@ There is certainly a lot to be said and dissected on the matter.
 
 No matter how you choose to name it, I will refer to test automation as the act upon using different technology, tasks which assert certain behavior of the application under test, are accomplished: typically this will include scripts being developed, executed and maintained.
 
-###<em>A more formal definition …</em> <p>
+### <em>A more formal definition …</em> <p>
 Test automation is the use of specialized software to control the execution of tests, compare actual outcomes with expected outcomes, and report results. 
 
 It involves creating scripts and utilizing tools to automatically conduct tests that were traditionally performed manually, aiming to improve efficiency, effectiveness, and coverage in the software testing process.
