@@ -6,7 +6,7 @@ In this project, I'd like to go through:
 
 1. [What is test automation](01-test-automation.md)
 2. [Benefits of test automation](02-benefits-test-automation.md)
-3. Sites to practice automation
+3. [Sites to practice automation](03-practice-automation-sites.md)
 4. Test automation sample framework with selenide
 5. Test automation sample framework with playwright
 6. API automation
