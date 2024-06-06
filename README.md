@@ -11,7 +11,7 @@ In this project, I'd like to go through:
 5. Test automation sample framework with playwright
 6. API automation
 7. CI pipeline with Jenkins
-8. [CI pipeline with GitHub actions](07-ci-qa-pipeline.yaml)
+8. [CI pipeline with GitHub actions](08-ci-qa-pipeline.yaml)
 
 ```
 To set up GitHub Actions for running Gradle tests, you need to create a workflow file in your repository. 
