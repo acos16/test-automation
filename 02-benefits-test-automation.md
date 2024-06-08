@@ -1,55 +1,59 @@
+# Benefits of Test Automation
 
-## Benefits of test automation
+## Why is Test Automation Necessary?
 
-**Why is test automation necessary?**<p>
-If you find yourself in need to justify introducing automated tests, 
-here are a few examples why test automation is necessary:
+If you need to justify the introduction of automated tests, here are some key reasons why test automation is necessary:
 
+### Reduces Manual Effort
 
-* Reduces manual effort: 
-  * automated tests can run more frequently than manual tests.
-  * automating repetitive tasks allows testers to perform more tests in less time.
-  * once created, automated tests can be run unattended. 
-  * test automation is not an alternative to manual testing, as many testing processes require human supervision and effort.
-    However, automating certain tasks can definitely help testers to improve the quality of applications and reduce the time to market. The major advantage of automation testing
-    is the easing of stressful activity of manual testers, so they get time and bandwidth for innovating with better test scenarios.
-    Thus, manual testing is always the base for test automation.
-* Better use of resources: by automating routine and repetitive testing tasks, human testers can focus on more complex
-  and exploratory testing activities that cannot be automated. 
-  * this optimization allows for better utilization of testing resources and enhances the overall effectiveness of the QA team
-* Faster feedback cycles: tests can run automatically whenever source code changes are checked in and notify the team if they fail. Features like these save time and increase their confidence.
-  * helps achieve continuous testing:  automated testing enables continuous testing, which helps in identifying defects early. This early detection reduces the cost and effort required to fix bugs, as issues are addressed before they escalate into more significant problems
-* Increase test coverage: 
-  * by enabling the execution of a large number of tests across different configurations and environments. It also frees up valuable time for testers, allowing them to focus on more complex and exploratory testing activities.
-  * automated testing allows for testing across multiple platforms and browsers, which is essential for web applications.
-* Helps build better quality: even the largest software and QA departments cannot perform a controlled web application test with thousands of users. Automated testing can simulate tens, hundreds or thousands of virtual users
-  interacting with a network, software and web applications.
+- **Frequent Execution**: Automated tests can run more frequently than manual tests.
+- **Efficiency**: Automating repetitive tasks allows testers to perform more tests in less time.
+- **Unattended Execution**: Once created, automated tests can be run unattended.
+- **Complement to Manual Testing**: While test automation is not a replacement for manual testing, it helps testers improve application quality and reduce time to market. It alleviates the stress on manual testers, allowing them to innovate with better test scenarios. Manual testing remains the foundation for test automation.
 
+### Better Use of Resources
 
-Keep in mind that not all tests need to be automated: automation isn't ideal for all types of software tests. 
-For example, exploratory testing is ideally performed manually.
+- **Focus on Complex Tasks**: By automating routine and repetitive tasks, human testers can concentrate on more complex and exploratory testing activities.
+- **Optimization**: This optimization allows better utilization of testing resources and enhances the overall effectiveness of the QA team.
 
-To consider: 
-* automated testing is not better than manual testing. Both have their advantages and disadvantages
-* initial investment in test automation can be costly, but over time the benefits will be paid off
+### Faster Feedback Cycles
 
-**When to apply automation testing?**<p>
+- **Automatic Testing**: Tests can run automatically whenever source code changes are checked in, notifying the team if they fail. This feature saves time and increases confidence.
+- **Continuous Testing**: Automated testing enables continuous testing, identifying defects early. Early detection reduces the cost and effort required to fix bugs, as issues are addressed before they escalate into significant problems.
+
+### Increased Test Coverage
+
+- **Comprehensive Testing**: Automation enables the execution of many tests across different configurations and environments. It frees up valuable time for testers to focus on more complex and exploratory testing activities.
+- **Cross-Platform Testing**: Automated testing allows for testing across multiple platforms and browsers, essential for web applications.
+
+### Helps Build Better Quality
+
+- **Simulated Load Testing**: Even the largest software and QA departments cannot perform controlled web application tests with thousands of users. Automated testing can simulate tens, hundreds, or thousands of virtual users interacting with networks, software, and web applications.
+
+❗ Keep in mind that not all tests need to be automated. Automation isn't ideal for all types of software tests, such as exploratory testing, which is best performed manually.
+
+### Considerations
+
+- **Balanced Approach**: Automated testing is not inherently better than manual testing; both have advantages and disadvantages.
+- **Initial Investment**: The initial investment in test automation can be costly, but the benefits are realized over time.
+
+## When to Apply Automation Testing?
 
 Automated testing may be the best solution if you:
 
-* need a highly reliable system (i.e. due to business-critical or life-altering important purposes);
-* want to reduce the cost of future changes to your system (i.e. planning to develop your system in the future);
-* need to improve an inherited system with a team unfamiliar with the old software, especially in cases when the previous version is grossly outdated.
-* repetitive tasks
-* repeated execution. This type of test considers the repetition of tasks, and it is better to run automated tests in these cases.
-* regression testing. Automation is better because of frequent code changes. It allows testing in real-time.
-* performance testing. This testing type evaluates the application’s scalability, speed and stability characteristics. It can be done more efficiently with automation.
+- Need a highly reliable system (e.g., for business-critical or life-altering purposes).
+- Want to reduce the cost of future changes to your system (e.g., planning future development).
+- Need to improve an inherited system with a team unfamiliar with the old software, especially if the previous version is outdated.
+- Have repetitive tasks.
+- Require repeated execution, such as tasks that need to be run frequently.
+- Perform regression testing due to frequent code changes, allowing real-time testing.
+- Conduct performance testing to evaluate the application’s scalability, speed, and stability characteristics.
 
-Below are the scenarios when you shouldn’t automate testing:
+### When Not to Automate Testing
 
-* exploratory testing
-* end-user usability testing
-* applications that involve strategic thinking and development
-* user experience testing
-* if automation takes longer than manual testing
-* test cases that are non-repetitive
+- Exploratory testing
+- End-user usability testing
+- Applications that involve strategic thinking and development
+- User experience testing
+- If automation takes longer than manual testing
+- Test cases that are non-repetitive
