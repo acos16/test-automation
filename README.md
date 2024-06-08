@@ -1,53 +1,73 @@
-# test-automation
+# Test Automation
 
-As we look at the industry's evolution, automation has become a necessary skill. But starting with automation can be sometimes daunting.
+In this project you will find information to help you get started with test automation, understand its benefits, and provide sample frameworks and CI pipeline setups.
 
-In this project, I'd like to go through:
-
-1. [What is test automation](01-test-automation.md)
-2. [Benefits of test automation](02-benefits-test-automation.md)
-3. [Sites to practice automation](03-practice-automation-sites.md)
-4. [Test automation sample framework with selenide](https://github.com/acos16/selenide-java-test-automation-framework)
-5. Test automation sample framework with playwright
-6. API automation
-7. CI pipeline with Jenkins
-8. [CI pipeline with GitHub actions](08-ci-qa-pipeline.yaml)
-
-```
-To set up GitHub Actions for running Gradle tests, you need to create a workflow file in your repository. 
-This file should be located in the .github/workflows directory of your repository and place the yaml file there.
-
-
-To manually trigger a GitHub Actions workflow, you can use the “Run workflow” feature on the Actions tab of your GitHub repository. Here’s how to do it:
-
-	1.	Go to your GitHub repository.
-	2.	Click on the “Actions” tab at the top.
-	3.	In the left sidebar, you’ll see a list of workflows. Click on the workflow you want to run manually (in this case, it’s likely named “CI Pipeline”).
-	4.	In the upper-right corner, you’ll see a green button labeled “Run workflow”. Click on it.
-	5.	You’ll be prompted to select the branch for which you want to run the workflow. Choose the branch (usually main or master) and click the “Run workflow” button.
-
-Once you’ve done this, GitHub will start running the workflow on the selected branch. You can monitor the progress and view the results in real-time on the Actions tab.
+## Table of Contents
+1. [Introduction](#introduction)
+2. [What is Test Automation?](#what-is-test-automation)
+3. [Benefits of Test Automation](#benefits-of-test-automation)
+4. [Practice Sites](#practice-sites)
+5. [Sample Frameworks](#sample-frameworks)
+    - [Selenide](#selenide)
+    - [Playwright](#playwright)
+6. [API Automation](#api-automation)
+7. [CI Pipelines](#ci-pipelines)
+    - [Jenkins](#jenkins)
+    - [GitHub Actions](#github-actions)
+8. [Code Review Practices](#code-review-practices)
 
 
-Additionally, other steps can be added to the pipeline.
+## Introduction
+Automation is crucial in today’s industry, but starting can be sometimes daunting. This project aims to simplify the journey.
 
-Add code scanners, such as SonarQube
+## What is Test Automation?
+Test automation involves using software tools to run repeatable tests on your application, ensuring quality and efficiency. More details about what is test automation in [understanding-test-automation](01-test-automation.md).
 
-- name: SonarQube Scan
-  uses: SonarSource/sonarcloud-github-action@master
-  env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+## Benefits of Test Automation
+What does automation bring to the table and what to automate can be found [here](02-benefits-test-automation.md).
 
-Make sure you have a SonarQube server set up and the necessary tokens (GITHUB_TOKEN and SONAR_TOKEN) added as secrets in your GitHub repository settings.
+## Practice Sites
+- Practice Automation - List of [sites](03-practice-automation-sites.md) to use in your learning path.
 
-Alternative to SonarQube: CodeQl
-```
+## Sample Frameworks
 
-An implementation of a GitHub action workflow is available in [this repository](https://github.com/acos16/selenide-java-test-automation-framework/tree/main)
-
-
-9. Practices for Code review
+### Selenide
+A [sample framework](https://github.com/acos16/selenide-java-test-automation-framework) using Selenide for browser automation.
 
 
+### Playwright
+A sample framework using Playwright for modern web testing. --> TBA
 
+## API Automation
+Guides and samples for API automation. --> TBA
+
+## CI Pipelines
+
+### Jenkins
+A [sample Jenkinsfile]() defining a Jenkins pipeline for building, testing and deploying a project.
+
+#### Details about the pipeline
+- Setting up a CI pipeline with Jenkins:
+  - Place the Jenkinsfile in the root directory 
+  - Jenkins pipeline includes steps for checking out code, compiling, running tests, publishing test results
+- Several other steps can be added: code scanner, check code style/code formatted, etc.
+- To add the Jenkinsfile to Jenkins server as pipeline job, follow steps described [here](https://www.btc-embedded.com/how-to-set-up-jenkins-from-scratch-on-your-own-pc-in-5-minutes/)
+
+### GitHub Actions
+A [sample yaml file] (08-ci-qa-pipeline.yaml) using GitHub actions.
+
+#### Details about the pipeline
+- Setting up GitHub Actions for CI/CD:
+  - Place the workflow file in `.github/workflows`. 
+  - Workflow  can be run manually because it uses `workflow_dispatch`. Use the “Run workflow” feature in the Actions tab.
+  - It is presumed that the execution of tests is done through a gradle task
+  - It is applicable for a Java project
+- To enhance this CI pipeline several other steps can be added: code scanner, check code style/code formatted, etc. 
+  - There are plenty of plugins that can be used in this scope:
+    - Code scanner: SonarQube, CodeQl 
+    - Code style: Spotless, Checkstyle
+- Further documentation on [GitHub actions](https://docs.github.com/en/actions/quickstart)
+- A concrete implementation of a workflow is available in [this repository](https://github.com/acos16/selenide-java-test-automation-framework/tree/main).
+
+
+## Code Review Practices
