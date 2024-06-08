@@ -54,7 +54,7 @@ A [sample Jenkinsfile]() defining a Jenkins pipeline for building, testing and d
 - To add the Jenkinsfile to Jenkins server as pipeline job, follow steps described [here](https://www.btc-embedded.com/how-to-set-up-jenkins-from-scratch-on-your-own-pc-in-5-minutes/)
 
 ### GitHub Actions
-A [sample yaml file] (08-ci-qa-pipeline.yaml) using GitHub actions.
+A [sample yaml file](08-ci-qa-pipeline.yaml) using GitHub actions.
 
 #### Details about the pipeline
 - Setting up GitHub Actions for CI/CD:
