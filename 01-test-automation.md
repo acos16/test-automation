@@ -6,16 +6,13 @@ Automation uses technology to accomplish tasks with as little human interaction 
 
 Once automated tests are developed, they can be repeated and they can be extended to perform more complex scenarios.
 
-For some people, saying **test automation** is controversial, 
-others will prefer to say <em>testing that is assisted by automation</em>, 
+The term **test automation** can sometimes contentious, 
+others will prefer phrases like <em>testing that is assisted by automation</em>, 
 or <em>checking</em> (see [checking vs testing](https://developsense.com/blog/2009/08/testing-vs-checking)), 
 or <em>automated qa testing</em> (see [testing vs quality assurance](https://www.browserstack.com/guide/quality-assurance-vs-testing)), 
-or <em>scripted testing</em>,
-plus numerous other ways which I have not mentioned here.
+or <em>scripted testing</em>. There are many other terms that describe similar concepts, though not mentioned here.
 
-There is certainly a lot to be said and dissected on the matter. 
-
-No matter how you choose to name it, I will refer to test automation as the act upon using different technology, tasks which assert certain behavior of the application under test, are accomplished: typically this will include scripts being developed, executed and maintained.
+Despite differing terminology, this guide will use **test automation** to refer to the process of using technology to perform tasks that verify specific behaviors of the application under test. This typically involves developing, executing, and maintaining scripts.
 
 ### <em>A more formal definition …</em> <p>
 Test automation is the use of specialized software to control the execution of tests, compare actual outcomes with expected outcomes, and report results. 
