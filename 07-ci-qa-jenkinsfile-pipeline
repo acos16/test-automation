@@ -1,0 +1,42 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git url: 'https://your-repo-url.git', branch: 'main'
+            }
+        }
+
+        stage('Compile') {
+            steps {
+                sh './gradlew clean compileJava'
+            }
+        }
+
+        stage('Test') {
+            steps {
+                sh './gradlew test'
+            }
+        }
+
+        stage('Publish JUnit Report') {
+            steps {
+                junit 'build/test-results/test/*.xml'
+            }
+        }
+
+        stage('Publish HTML Report') {
+            steps {
+                publishHTML(target: [
+                    reportName           : 'HTML Report',
+                    reportDir            : 'build/reports/tests/test',
+                    reportFiles          : 'index.html',
+                    keepAll              : true,
+                    alwaysLinkToLastBuild: true,
+                    allowMissing         : true
+                ])
+            }
+        }
+    }
+}
