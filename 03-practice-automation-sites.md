@@ -10,6 +10,5 @@ Here are some websites which you can use to practice test automation
 8. [ParaBank Bank Site](https://parabank.parasoft.com/parabank/index.htm) (web, API)
 9. [Restful-Booker](https://restful-booker.herokuapp.com/) (API)
 10. [Demoqa](https://demoqa.com/) (web)
+11. [Orange HRM](https://opensource-demo.orangehrmlive.com/web/index.php/auth/login) (web UI)
 
-Source: [20 Websites to Practice Automation Testing (UI, API, Mobile)](https://ultimateqa.com/dummy-automation-websites/)
-by Paulo Henrique
