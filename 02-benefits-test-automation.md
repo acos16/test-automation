@@ -9,7 +9,7 @@ If you need to justify the introduction of automated tests, here are some key re
 - **Frequent Execution**: Automated tests can run more frequently than manual tests.
 - **Efficiency**: Automating repetitive tasks allows testers to perform more tests in less time.
 - **Unattended Execution**: Once created, automated tests can be run unattended.
-- **Complement to Manual Testing**: While test automation is not a replacement for manual testing, it helps testers improve application quality and reduce time to market. It alleviates the stress on manual testers, allowing them to innovate with better test scenarios. Manual testing remains the foundation for test automation.
+- **Complement to Manual Testing**: While test automation is not a replacement for manual testing, it helps testers improve application quality and reduce time to market. It alleviates the stress on manual testers, so they get time and bandwidth for innovating with better test scenarios. Thus, manual testing is always the base for test automation.
 
 ### Better Use of Resources
 

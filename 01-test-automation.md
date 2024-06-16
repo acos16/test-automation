@@ -6,7 +6,7 @@ Automation uses technology to accomplish tasks with as little human interaction 
 
 Once automated tests are developed, they can be repeated and they can be extended to perform more complex scenarios.
 
-The term **test automation** can sometimes contentious, 
+The term **test automation** can sometimes be contentious, 
 others will prefer phrases like <em>testing that is assisted by automation</em>, 
 or <em>checking</em> (see [checking vs testing](https://developsense.com/blog/2009/08/testing-vs-checking)), 
 or <em>automated qa testing</em> (see [testing vs quality assurance](https://www.browserstack.com/guide/quality-assurance-vs-testing)), 
