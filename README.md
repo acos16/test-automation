@@ -36,7 +36,7 @@ A [sample framework](https://github.com/acos16/selenide-java-test-automation-fra
 
 
 ### Playwright
-A sample framework using Playwright for modern web testing. --> TBA
+A [sample framework](https://github.com/acos16/playwright-test-automation-framework) using Playwright for API and UI test automation.
 
 ## API Automation
 Guides and samples for API automation. --> TBA
