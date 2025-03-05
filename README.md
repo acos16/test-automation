@@ -74,4 +74,4 @@ A [sample yaml file](05-ci-qa-pipeline-githubAction-workflow.yaml) using GitHub 
 
 ## Code Review Practices
 
-TBA
+Check out the detailed Code Review Practices [here](07-code-review.md).
