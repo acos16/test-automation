@@ -4,7 +4,7 @@ Code review is a standard procedure in software development, aimed at improving 
 
 However, if not approached with commitment and genuine engagement, code reviews can become a superficial checkbox exercise, providing little value. In such cases, alternative practices like pair programming, mob programming, or automated code analysis may be more effective in achieving the same goals while ensuring active participation.
 
-###Goals of Code Review
+### Goals of Code Review
 
 The primary goal of code review is learning—both for the reviewer and the author. It provides an opportunity to:
  

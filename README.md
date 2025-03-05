@@ -41,7 +41,7 @@ A [sample framework](https://github.com/acos16/playwright-test-automation-framew
 To get access to this repository, follow the request access [instructions](08-request-access.md).
 
 ## API Automation
-Guides and samples for API automation. --> TBA
+[Here](06-api-automation.md) you can find an overview of API automation testing, including essential tools, automation frameworks, and useful resources to streamline API validation and ensure software reliability.
 
 ## CI Pipelines
 
