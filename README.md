@@ -33,10 +33,12 @@ What does automation bring to the table and what to automate can be found [here]
 
 ### Selenide
 A [sample framework](https://github.com/acos16/selenide-java-test-automation-framework) using Selenide for browser automation.
+To get access to this repository, follow the request access [instructions](08-request-access.md).
 
 
 ### Playwright
 A [sample framework](https://github.com/acos16/playwright-test-automation-framework) using Playwright for API and UI test automation.
+To get access to this repository, follow the request access [instructions](08-request-access.md).
 
 ## API Automation
 Guides and samples for API automation. --> TBA
