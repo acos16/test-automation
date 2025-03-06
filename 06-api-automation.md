@@ -3,25 +3,18 @@
 ## Introduction
 API testing is a crucial aspect of software quality assurance, ensuring seamless communication and data exchange between different software systems. Unlike UI testing, which validates application interfaces, API testing focuses on verifying request-response interactions, authentication, error handling, and performance aspects of APIs.
 
-By automating API testing, teams can improve efficiency, reduce manual effort, and detect issues early in the development lifecycle. This README provides an overview of API testing tools, automation frameworks, and useful learning resources.
+By automating API testing, teams can improve efficiency, reduce manual effort, and detect issues early in the development lifecycle. 
 
 ## Tools for API Testing
 Here are some widely used tools for API testing:
-
-### Postman
-- A user-friendly GUI tool for sending API requests and validating responses.
-- Supports automated testing through Postman Collections and Newman CLI.
-
-### Swagger UI
-- Interactive API documentation that allows testing endpoints directly from the browser.
-- Provides a visual interface for exploring and executing API calls.
+- Postman
+- Swagger
 
 ## Automating API Testing
-Automating API testing ensures consistency, reduces human error, and enables integration with CI/CD pipelines. Below are popular API testing libraries for Java:
+Below are popular API testing libraries for Java:
 
 ### Rest Assured
 - A widely used Java library for testing RESTful APIs.
-- Provides a fluent interface for writing API test cases.
 
 ### Apache HttpClient
 - A flexible and robust library for making HTTP requests and handling responses.
@@ -29,7 +22,7 @@ Automating API testing ensures consistency, reduces human error, and enables int
 
 ### Karate DSL
 - A powerful API testing framework that supports both API and UI automation.
-- Uses a simple syntax with Gherkin for defining test cases.
+- Based on the popular Cucumber / Gherkin standard.
 
 ### Rest Easy
 - A JBoss-based RESTful Web Services framework.
